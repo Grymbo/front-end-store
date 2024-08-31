@@ -1,0 +1,13 @@
+/******************************* Style Guide ***********************************/
+:root {
+    /********************** Colors **********************************/
+    --primario: #9C27B0;
+    --primarioOscuro: #89119D;
+    --secundario: #FFCE00;
+    --secundarioOscuro: rgb(233,287,2);
+    --blanco: #FFFFFF;
+    --negro: #000000;
+
+    /************************* Fonts ************************************/
+    --fuentePrincipal: font-family: "Staatliches", sans-serif;
+}
