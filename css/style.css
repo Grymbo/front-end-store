@@ -89,6 +89,21 @@ h3 {
     color: var(--secundario);
 }
 
+/******************************* Grid ***********************************/
+.grid {
+    display: grid;
+}
+@media (min-width: 768px){
+    .grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (min-width: 1050px){
+    .grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
 /***************************** Productos ***********************************/
 .producto {
 
@@ -103,7 +118,7 @@ h3 {
 
 }
 .producto__precio {
-    
+
 }
 
 /******************************** Footer ***************************************/
